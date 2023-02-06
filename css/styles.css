@@ -67,7 +67,6 @@ img {
   padding: 0 15px;
 }
 
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -166,8 +165,20 @@ footer {
 }
 
 .footer-content {
+  width: 264px;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.logo-web-footer {
+  display: flex;
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  text-transform: uppercase;
 }
 
 .logo-footer {
@@ -179,11 +190,10 @@ footer {
 }
 
 .footer-text {
-  padding-top: 16px;
+  margin-top: 16px;
   font-size: var(--text-paragrafe-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
   color: #e7e9fc;
 }
 
@@ -218,17 +228,15 @@ footer {
 }
 
 .title {
-  max-width: 524px;
+  max-width: 494px;
   margin: 0 auto;
   margin-top: 0;
   margin-bottom: 48px;
-  padding: 0 15px;
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
   color: #ffffff;
 }
-
 
 .doing-item {
   display: flex;
@@ -291,7 +299,6 @@ footer {
   margin-left: 24px;
 }
 
-
 .team-section {
   background-color: #f4f4fd;
 }
@@ -318,6 +325,13 @@ footer {
 
 /* -----------PORTFOLIO--------------------- */
 
+.button-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-filtrs {
   display: inline-block;
   border: 1px solid #e7e9fc;
@@ -333,6 +347,14 @@ footer {
   color: #4d5ae5;
 }
 
+.button-item {
+  margin-right: 24px;
+}
+
+.button-item:last-child {
+  margin-right: 0;
+}
+
 .btn-filtrs:hover,
 .btn-filtrs:focus {
   background: #404bbf;
@@ -342,17 +364,6 @@ footer {
 .portfolio-main {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-.button-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.button-portfolio .button-item + .button-item {
-  margin-left: 24px;
 }
 
 .portf-title {
@@ -373,14 +384,14 @@ footer {
 .section-portfolio {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 
 .portfolio-cart {
   display: inline-block;
   width: 360px;
   margin-right: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   background-color: #ffffff;
 }
 
@@ -395,6 +406,7 @@ footer {
 .portfolio-cart-text {
   padding: 32px 0px 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: 0px;
 }
 
 .portf-paragrafe {
